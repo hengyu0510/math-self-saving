@@ -1,0 +1,101 @@
+site_name: 数院自救指南
+site_url: https://csdiy.wiki/
+site_author: hengyu0510
+site_description: >-
+  数院自救指南
+
+repo_name: math0-self-saving
+repo_url: https://github.com/hengyu0510/math-self-saving/
+
+copyright: Copyright &copy; 2021-present <a href="https://github.com/hengyu0510" target="_blank" rel="noopener noreferrer">hengyu0510</a>
+
+theme:
+  name: material
+  language: zh
+  static_templates:
+    - 404.html
+  favicon: images/favicon.ico
+  apple-touch-icon-precomposed: images/mobile_icon.png
+  include_search_page: false
+  search_index_only: true
+
+  features:
+    - header.autohide
+    - navigation.tracking
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.code.annotate
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: cyan
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+  font:
+    text: Roboto Slab
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+
+  custom_dir: overrides
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - footnotes
+
+plugins:
+  - i18n:
+      languages:
+        - locale: zh
+          default: true
+          name: 简体中文
+          build: true
+        - locale: en
+          name: English
+          build: true
+          site_name: math-self-saving
+          nav_translations: {}
+          # TODO: 在这里补充导航标题的中英文翻译，例如：
+          # 首页: Home
+          # 数学分析: Mathematical Analysis
+  - search:
+      lang:
+        - zh
+        - en
+  - git-revision-date:
+  - minify:
+      minify_html: true
+  - open-in-new-tab:
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/hengyu0510/math-self-saving/
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+    # TODO: 替换成你自己的 Google Analytics 属性 ID；如果不需要统计，可以删除 analytics 部分
+
+nav:
+  - 首页: index.md
+  # TODO: 根据 docs/ 目录结构补充数学网站导航。
+  # 示例：
+  # - 数学分析:
+  #     - 微积分: 数学分析/calculus.md
+  #     - 实分析: 数学分析/real_analysis.md
+  # - 高等代数: 高等代数/index.md
+  # - 概率论: 概率论/index.md
