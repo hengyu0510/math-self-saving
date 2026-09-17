@@ -9,7 +9,7 @@
 <!-- TODO: 替换成实际的 GitHub Pages 或自定义域名地址 -->
 
 ```text
-https://hengyu0510.github.io/math-self-saving/
+https://mathselfsaving.cn/
 ```
 
 ## 本地开发
