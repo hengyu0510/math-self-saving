@@ -16,6 +16,7 @@ theme:
     - 404.html
   favicon: images/favicon.ico
   apple-touch-icon-precomposed: images/mobile_icon.png
+  logo: images/logo-mark.svg
   include_search_page: false
   search_index_only: true
 
