@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 64" width="256" height="64" fill="none">
+  <title>math self saving logo</title>
+  <desc>数学自学指南品牌标识，积分、书页、上升阶梯同构设计</desc>
+
+  <g stroke="#142F4C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M34 10 C25 11.5, 17 14.5, 11 19 L11 45 C17 49.5, 25 52.5, 30 54"/>
+    <path d="M34 10 C43 11.5, 51 14.5, 53 19 L53 45 C49 49.5, 39 52.5, 30 54"/>
+    <path d="M34 10 C26 13, 26 25, 32 32 C38 39, 38 51, 30 54"/>
+  </g>
+
+  <path d="M36 45 h5 v-4 h5 v-4 h5 v-4"
+        stroke="#C2A050" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g fill="#142F4C">
+    <text x="80" y="29"
+          font-family="'Cormorant Garamond', 'STIX Two Math', 'EB Garamond', 'Times New Roman', serif"
+          font-size="30" font-style="italic" font-weight="500"
+          letter-spacing="0.3">
+      math
+    </text>
+    <text x="92" y="48"
+          font-family="'EB Garamond', 'STIX Two Text', 'Times New Roman', serif"
+          font-size="14" font-style="italic" font-weight="400"
+          opacity="0.82" letter-spacing="0.2">
+      self saving
+    </text>
+  </g>
+</svg>

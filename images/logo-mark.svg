@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none">
+  <title>math self saving mark</title>
+  <desc>积分、书页、上升阶梯同构的数学自学指南图标</desc>
+
+  <g stroke="#142F4C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M34 10 C25 11.5, 17 14.5, 11 19 L11 45 C17 49.5, 25 52.5, 30 54"/>
+    <path d="M34 10 C43 11.5, 51 14.5, 53 19 L53 45 C49 49.5, 39 52.5, 30 54"/>
+    <path d="M34 10 C26 13, 26 25, 32 32 C38 39, 38 51, 30 54"/>
+  </g>
+
+  <path d="M36 45 h5 v-4 h5 v-4 h5 v-4"
+        stroke="#C2A050" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
