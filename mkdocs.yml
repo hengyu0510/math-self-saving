@@ -71,15 +71,54 @@ plugins:
           site_name: math-self-saving
           nav_translations:
             首页: Home
+            数学基础: Foundations
             数学分析: Mathematical Analysis
             高等代数: Advanced Algebra
-            概率统计: Probability and Statistics
+            线性代数: Linear Algebra
+            解析几何: Analytic Geometry
+            初等数论: Elementary Number Theory
+            离散数学: Discrete Mathematics
+            分析与方程: Analysis and Equations
+            常微分方程: Ordinary Differential Equations
+            偏微分方程: Partial Differential Equations
+            复变函数: Complex Analysis
             实变函数: Real Analysis
             泛函分析: Functional Analysis
+            调和分析: Harmonic Analysis
+            代数与几何: Algebra and Geometry
+            抽象代数: Abstract Algebra
+            高等几何: Advanced Geometry
+            微分几何: Differential Geometry
             拓扑学: Topology
+            交换代数: Commutative Algebra
+            代数数论: Algebraic Number Theory
+            概率与统计: Probability and Statistics
+            概率论: Probability Theory
+            数理统计: Mathematical Statistics
+            随机过程: Stochastic Processes
+            多元统计分析: Multivariate Statistical Analysis
+            时间序列分析: Time Series Analysis
+            计算与应用: Computation and Applications
             数值分析: Numerical Analysis
+            计算方法: Computational Methods
             最优化: Optimization
+            运筹学: Operations Research
+            控制论: Control Theory
+            数学建模: Mathematical Modeling
+            金融数学: Financial Mathematics
+            交叉与进阶: Interdisciplinary and Advanced Topics
+            数理逻辑: Mathematical Logic
+            集合论: Set Theory
+            组合数学: Combinatorics
+            图论: Graph Theory
+            信息论: Information Theory
+            编码理论: Coding Theory
+            密码学: Cryptography
+            数学物理: Mathematical Physics
+            工具与写作: Tools and Writing
             数学工具: Mathematical Tools
+            数学写作: Mathematical Writing
+            数学史: History of Mathematics
   - search:
       lang:
         - zh
@@ -95,12 +134,51 @@ extra:
       link: https://github.com/hengyu0510/math-self-saving/
 nav:
   - 首页: index.md
-  - 数学分析: 数学分析/index.md
-  - 高等代数: 高等代数/index.md
-  - 概率统计: 概率统计/index.md
-  - 实变函数: 实变函数/index.md
-  - 泛函分析: 泛函分析/index.md
-  - 拓扑学: 拓扑学/index.md
-  - 数值分析: 数值分析/index.md
-  - 最优化: 最优化/index.md
-  - 数学工具: 数学工具/index.md
+  - 数学基础:
+      - 数学分析: 数学分析/index.md
+      - 高等代数: 高等代数/index.md
+      - 线性代数: 线性代数/index.md
+      - 解析几何: 解析几何/index.md
+      - 初等数论: 初等数论/index.md
+      - 离散数学: 离散数学/index.md
+  - 分析与方程:
+      - 常微分方程: 常微分方程/index.md
+      - 偏微分方程: 偏微分方程/index.md
+      - 复变函数: 复变函数/index.md
+      - 实变函数: 实变函数/index.md
+      - 泛函分析: 泛函分析/index.md
+      - 调和分析: 调和分析/index.md
+  - 代数与几何:
+      - 抽象代数: 抽象代数/index.md
+      - 高等几何: 高等几何/index.md
+      - 微分几何: 微分几何/index.md
+      - 拓扑学: 拓扑学/index.md
+      - 交换代数: 交换代数/index.md
+      - 代数数论: 代数数论/index.md
+  - 概率与统计:
+      - 概率论: 概率论/index.md
+      - 数理统计: 数理统计/index.md
+      - 随机过程: 随机过程/index.md
+      - 多元统计分析: 多元统计分析/index.md
+      - 时间序列分析: 时间序列分析/index.md
+  - 计算与应用:
+      - 数值分析: 数值分析/index.md
+      - 计算方法: 计算方法/index.md
+      - 最优化: 最优化/index.md
+      - 运筹学: 运筹学/index.md
+      - 控制论: 控制论/index.md
+      - 数学建模: 数学建模/index.md
+      - 金融数学: 金融数学/index.md
+  - 交叉与进阶:
+      - 数理逻辑: 数理逻辑/index.md
+      - 集合论: 集合论/index.md
+      - 组合数学: 组合数学/index.md
+      - 图论: 图论/index.md
+      - 信息论: 信息论/index.md
+      - 编码理论: 编码理论/index.md
+      - 密码学: 密码学/index.md
+      - 数学物理: 数学物理/index.md
+  - 工具与写作:
+      - 数学工具: 数学工具/index.md
+      - 数学写作: 数学写作/index.md
+      - 数学史: 数学史/index.md
