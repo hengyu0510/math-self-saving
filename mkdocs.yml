@@ -68,10 +68,17 @@ plugins:
           name: English
           build: true
           site_name: math-self-saving
-          nav_translations: {}
-          # TODO: 在这里补充导航标题的中英文翻译，例如：
-          # 首页: Home
-          # 数学分析: Mathematical Analysis
+          nav_translations:
+            首页: Home
+            数学分析: Mathematical Analysis
+            高等代数: Advanced Algebra
+            概率统计: Probability and Statistics
+            实变函数: Real Analysis
+            泛函分析: Functional Analysis
+            拓扑学: Topology
+            数值分析: Numerical Analysis
+            最优化: Optimization
+            数学工具: Mathematical Tools
   - search:
       lang:
         - zh
@@ -85,17 +92,14 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/hengyu0510/math-self-saving/
-  analytics:
-    provider: google
-    property: G-XXXXXXXXXX
-    # TODO: 替换成你自己的 Google Analytics 属性 ID；如果不需要统计，可以删除 analytics 部分
-
 nav:
   - 首页: index.md
-  # TODO: 根据 docs/ 目录结构补充数学网站导航。
-  # 示例：
-  # - 数学分析:
-  #     - 微积分: 数学分析/calculus.md
-  #     - 实分析: 数学分析/real_analysis.md
-  # - 高等代数: 高等代数/index.md
-  # - 概率论: 概率论/index.md
+  - 数学分析: 数学分析/index.md
+  - 高等代数: 高等代数/index.md
+  - 概率统计: 概率统计/index.md
+  - 实变函数: 实变函数/index.md
+  - 泛函分析: 泛函分析/index.md
+  - 拓扑学: 拓扑学/index.md
+  - 数值分析: 数值分析/index.md
+  - 最优化: 最优化/index.md
+  - 数学工具: 数学工具/index.md

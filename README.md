@@ -1,12 +1,8 @@
 # math-self-saving
 
-> 一个基于 MkDocs Material 的数学自学指南网站。
-
-<!-- TODO: 在这里补充项目简介 -->
+> 数院自救指南：一个基于 MkDocs Material 的数学自学指南网站。
 
 ## 网站地址
-
-<!-- TODO: 替换成实际的 GitHub Pages 或自定义域名地址 -->
 
 ```text
 https://mathselfsaving.cn/
@@ -39,12 +35,17 @@ math-self-saving/
 └── template.en.md     # 英文内容模板
 ```
 
-## 添加新内容
+## 当前数学栏目
 
-1. 在 `docs/` 下新建对应分类目录和 Markdown 文件；
-2. 可参考 `template.md` 编写课程页面；
-3. 在 `mkdocs.yml` 的 `nav` 中加入新页面；
-4. 如果需要英文页面，同时创建对应的 `.en.md` 文件。
+- 数学分析
+- 高等代数
+- 概率统计
+- 实变函数
+- 泛函分析
+- 拓扑学
+- 数值分析
+- 最优化
+- 数学工具
 
 ## 部署
 
@@ -54,12 +55,12 @@ math-self-saving/
 mkdocs gh-deploy --force
 ```
 
-需要在 GitHub 仓库的 Settings → Pages 中将发布分支设置为 `gh-pages`。
+GitHub Pages 已使用 `gh-pages` 分支发布，并绑定域名 `mathselfsaving.cn`。
 
 ## TODO
 
-- [ ] 替换 `mkdocs.yml` 顶部的站点名称、网址和作者信息
-- [ ] 删除 CS 版 `docs` 内容，建立数学学习目录
 - [ ] 替换站点 Logo、favicon 和标题图片
-- [ ] 配置或移除 Giscus 评论
-- [ ] 完善数学课程内容和导航
+- [ ] 编写首页正式内容
+- [ ] 填充各数学栏目的课程、教材、视频和习题资源
+- [ ] 如需评论区，配置 Giscus 为当前仓库
+- [ ] 根据需要继续调整导航结构和英文翻译
