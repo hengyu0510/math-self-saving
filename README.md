@@ -1,6 +1,6 @@
-<figure markdown>
-  ![math self saving](./images/logo.jpg){ width="420" }
-</figure>
+<p align="center">
+  <img src="./docs/images/logo.jpg" alt="math self saving" width="420">
+</p>
 
 # Welcome to the era of Artificial Intelligence
 
