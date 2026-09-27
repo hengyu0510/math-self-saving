@@ -1,5 +1,5 @@
 <figure markdown>
-  ![math self saving](./images/logo.svg){ width="420" }
+  ![math self saving](./images/logo.jpg){ width="420" }
 </figure>
 
 # TODO
