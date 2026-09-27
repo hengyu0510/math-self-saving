@@ -1,64 +1,8 @@
-# math-self-saving
+<figure markdown>
+  ![math self saving](./images/logo.jpg){ width="420" }
+</figure>
 
-> 数院自救指南：一个基于 MkDocs Material 的数学自学指南网站。
+# Welcome to the era of Artificial Intelligence
 
-## 网站地址
-
-```text
-https://mathselfsaving.cn/
-```
-
-## 本地开发
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\python -m pip install -U pip
-.\.venv\Scripts\python -m pip install -r requirements.txt
-.\.venv\Scripts\python -m mkdocs serve
-```
-
-然后在浏览器打开终端输出的地址，通常是：
-
-```text
-http://127.0.0.1:8000
-```
-
-## 项目结构
-
-```text
-math-self-saving/
-├── docs/              # Markdown 内容
-├── overrides/         # MkDocs 主题覆盖文件
-├── mkdocs.yml         # 站点配置和导航
-├── requirements.txt   # Python 依赖
-├── template.md        # 中文内容模板
-└── template.en.md     # 英文内容模板
-```
-
-## 当前数学栏目
-
-- 数学基础：数学分析、高等代数、线性代数、解析几何、初等数论、离散数学
-- 分析与方程：常微分方程、偏微分方程、复变函数、实变函数、泛函分析、调和分析
-- 代数与几何：抽象代数、高等几何、微分几何、拓扑学、交换代数、代数数论
-- 概率与统计：概率论、数理统计、随机过程、多元统计分析、时间序列分析
-- 计算与应用：数值分析、计算方法、最优化、运筹学、控制论、数学建模、金融数学
-- 交叉与进阶：数理逻辑、集合论、组合数学、图论、信息论、编码理论、密码学、数学物理
-- 工具与写作：数学工具、数学写作、数学史
-
-## 部署
-
-推送 `main` 分支后，GitHub Actions 会运行：
-
-```text
-mkdocs gh-deploy --force
-```
-
-GitHub Pages 已使用 `gh-pages` 分支发布，并绑定域名 `mathselfsaving.cn`。
-
-## TODO
-
-- [ ] 替换站点 Logo、favicon 和标题图片
-- [ ] 编写首页正式内容
-- [ ] 填充各数学栏目的课程、教材、视频和习题资源
-- [ ] 如需评论区，配置 Giscus 为当前仓库
-- [ ] 根据需要继续调整导航结构和英文翻译
+2022年10月30日，Chatgpt横空出世，我们一边惊叹于大语言模型或许可以使得AGI降临成为可能，一边”嘲笑“当时大语言模型的智能水平。短短三年，从GPT3.5到GPT4o到DeepseekR1，再到Claude Opus 4.6以及GPT5.6-sol，再到目前openai的内部模型。大语言模型的智能水平，尤其是coding和math水平得到了空前的提升。2026年5月，openai宣布单位距离猜想告破；7月，anthropic研究院levent在观看世界杯时借助claude fable5证伪三维Jacobi猜想；9月9号，千禧年七大难题之一的NS方程问题被openai的内部模型在启用了数万个agent并行推理后宣布破解。9月11日，陶哲轩、邓煜、舒尔茨等大数学家在mathandai.org上发表《人工智能在数学中的严重错位》引爆全网讨论。形式化验证、人类理解、学术权威、产业激励的矛盾在此时进行了一场集中爆发。而在风暴之外，其他的普通的数学学生又将何去何从呢。
+<!-- TODO: 在这里补充“数院自救指南”的首页内容。 -->
